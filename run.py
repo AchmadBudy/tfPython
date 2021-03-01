@@ -75,7 +75,7 @@ for pecah in gabunganNotDouble:
 
 namaFile = input("masukkan nama file excelnya : ")
 # memulai inisiasi pembuatan excelnya
-workbook = xlsxwriter.Workbook('hasil/'+namaFile+'.xlsx')
+workbook = xlsxwriter.Workbook(namaFile+'.xlsx')
 # pembukaan worksheet baru
 worksheet = workbook.add_worksheet()
 # pembuatan daftar unik
