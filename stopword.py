@@ -16,7 +16,7 @@ class autoRIS:
     def mulai(self):
         f = open(self.namaTxt, encoding="utf8")
         a = f.read()
-        a = a.split()
+        a = a.splitlines()
         array = [a]
         row = 0
         self.worksheet.write(row, 0, "Daftar Tokenizing")
